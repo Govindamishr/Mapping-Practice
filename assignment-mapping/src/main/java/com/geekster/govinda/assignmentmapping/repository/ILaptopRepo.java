@@ -1,0 +1,13 @@
+package com.geekster.govinda.assignmentmapping.repository;
+
+import com.geekster.govinda.assignmentmapping.model.Laptop;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+
+public interface ILaptopRepo extends JpaRepository<Laptop,Long> {
+
+}
